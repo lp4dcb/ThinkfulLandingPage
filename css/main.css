@@ -1,0 +1,51 @@
+body {
+    background-color: LightGray;
+    font-family: sans-serif;
+}
+.container{
+    background: #fff;
+}
+.logo{
+    width: 30px;
+    height: auto;
+}
+.content{
+    width: 60rem;
+    margin: auto;
+}
+.nav{
+    position: static;
+    background: #fff;
+    padding: 1.5rem 1rem;
+}
+.nav ul, .nav ul li, .logo{
+    display: inline-block;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+        margin-left: 30px;
+
+    color: #666;
+}
+
+section.main{
+    background-image: url(../images/first-background.jpg);
+     background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.main .content{
+    text-align: center;
+    color:#fff;
+}
+
+.main h1{
+    margin-top: 17rem;
+}
+.blurb{
+    margin-bottom: 25px;
+}
